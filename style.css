@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(135, 132, 132);
+}
+
+#nav {
+    width: 100%;
+    background-color: rgb(255, 120, 147);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+#nav h4 {
+    font-size: 20px;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#centre {
+    width: 100%;
+    background-color: cornsilk;
+    padding: 15px 50px;
+}
+#centre h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+#centre-in {
+    width: 100%;
+    background-color: cornsilk;
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#centre-in p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#right {
+    width: 20%;
+}
+
+.elem {
+    padding: 10px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.elem i {
+    opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover a {
+    text-decoration: underline;
+}
+
+#bottom {
+    height: 24%;
+    width: 100%;
+    background-color: cornsilk;
+    background-image: url(https://images.unsplash.com/photo-1493655161922-ef98929de9d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 20%;
+}
